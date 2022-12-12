@@ -1,0 +1,79 @@
+*{
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0;
+}
+.wrapper {
+	width: 500px;
+	height: auto;
+	padding: 10px;
+	box-shadow: 2px 3px 2px 3px rgb(134, 134, 134);
+	margin: 50px auto;
+    border: 2px solid  #6e98d6;
+}
+
+.form-chat {
+	display: flex;
+	justify-content: space-between;
+}
+
+.form-input { 
+    background-color: #6e98d6;
+    border: 2px solid  #6e98d6;
+    border-radius: 5px;
+    padding: 7px 5px;
+	width: 80%;
+	margin-right: 10px;
+	
+	
+}
+.form-input:focus {
+	background-color:  whitesmoke;
+}
+
+.form-btn {
+	border: none;
+    border-radius: 5px;
+	background-color: #4284e7;
+	padding: 0px 5px;
+	width: 30%;
+	cursor: pointer; 
+}
+.form-btn:hover {
+	background-color: #2315eb;
+}
+
+.wrapper-chat {
+	overflow: auto;
+	border: 3px solid #4284e7;
+	padding: 5px;
+	margin-top: 12px;
+	height: 400px;
+}
+ .messages {
+	border: 3px solid #86b4f8;
+	border-radius: 10px;
+	padding: 10px;
+    margin-top: 5px;
+	margin-bottom: 7px;
+	align-self: flex-end;
+} 
+
+.user-messages {
+	display: flex;
+	flex-flow: column wrap;
+
+}
+.server-messages, a {
+    margin-top: 5px;
+	cursor: pointer;
+	color: #6d6666;
+	text-decoration: none
+}
+.server-messages:hover, a:hover {
+	color: #2315eb;
+}
+
+.geo-location {
+	margin-left: 6px;
+}
